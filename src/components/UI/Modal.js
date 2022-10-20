@@ -4,7 +4,7 @@ import classes from '.././../styles/Cart/Cart.module.css';
 
 const Backdrop = (props) => {
   return (
-    <div className={classes.backdrop} />
+    <div className={classes.backdrop} onClick={props.onClose}/>
   );
 }
 
@@ -22,7 +22,7 @@ const Modal = (props) => {
   return (
     <React.Fragment>
       {ReactDOM.createPortal(
-        <Backdrop />,
+        <Backdrop onClose={props.onClose} />,
         portalElement
       )}
       {ReactDOM.createPortal(
