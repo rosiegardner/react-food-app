@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import classes from '.././../styles/Cart/Cart.module.css';
+import classes from './Modal.module.css';
 
 const Backdrop = (props) => {
   return (
