@@ -24,7 +24,7 @@ This application was created as a skills exercise in React Core Concepts. This R
 
 ### Known Bugs
 
-* Create and Read functionality only.
+* WIP: Users cannot place orders.
 
 ### Contact
 
